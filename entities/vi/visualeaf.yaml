@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-05T07:40:08.781Z
   category: databases
 profile:
+  summary: VisuaLeaf is a desktop database client for MongoDB, PostgreSQL, MySQL, SQL Server, Oracle, and other databases, with query building, schema tools, and dashboards.
   description: VisuaLeaf is a desktop database client for querying, administering,
     and visualizing MongoDB, PostgreSQL, MySQL, and other databases.
   links:
@@ -32,8 +33,7 @@ offers:
     offer_slug: first-year-startup-discount
     offer_slug_aliases: []
     title: 50% off VisuaLeaf licences for one year
-    summary: Approved startups receive half-price paid licences for their first
-      year, limited to ten licences. Subsequent renewal uses regular pricing.
+    summary: Approved startups under three years old with fewer than 15 employees get 50% off up to 10 VisuaLeaf licences for their first year, then can renew at the regular price.
     lifecycle:
       status: active
       effective_from: 2026-09-05T07:40:08.781Z
@@ -41,20 +41,17 @@ offers:
       benefits:
         - benefit_id: ben_licence_discount
           kind: discount
-          description: First-year discount on up to ten licences of the selected paid
-            plan, including its updates and support.
+          description: 50% off up to 10 VisuaLeaf licences for the first year, on the full chosen plan including regular updates and support
           percentage:
             kind: exact
             basis_points: 5000
           duration:
             kind: exact
             value: P1Y
-          applies_to: Up to 10 paid VisuaLeaf licences
+          applies_to: Up to 10 licences of the chosen VisuaLeaf paid plan
       consideration:
-        kind: unknown
-        description: A paid purchase is required at the discounted price; the amount
-          depends on plan and licence count. After year one, regular renewal
-          pricing applies.
+        kind: variable
+        description: The startup pays the discounted first-year price through a private checkout link; afterward it can renew at the regular price, change plan or licence count, or use the free Community Edition.
     eligibility:
       rule:
         kind: all
