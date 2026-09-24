@@ -41,17 +41,16 @@ offers:
       benefits:
         - benefit_id: ben_licence_discount
           kind: discount
-          description: 50% off up to 10 VisuaLeaf licences for the first year, on the full chosen plan including regular updates and support
+          description: Get 50% off up to 10 VisuaLeaf licences for your first year.
           percentage:
             kind: exact
             basis_points: 5000
           duration:
             kind: exact
             value: P1Y
-          applies_to: Up to 10 licences of the chosen VisuaLeaf paid plan
       consideration:
         kind: variable
-        description: The startup pays the discounted first-year price through a private checkout link; afterward it can renew at the regular price, change plan or licence count, or use the free Community Edition.
+        description: The startup receives 50% off up to 10 VisuaLeaf licences for its first year.
     eligibility:
       rule:
         kind: all
